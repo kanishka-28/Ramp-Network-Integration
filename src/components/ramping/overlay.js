@@ -10,7 +10,6 @@ const OverLay = () => {
         e.preventDefault();
         try {
             new RampInstantSDK({
-                // swapAsset: 'ETH',
                 userEmailAddress: emailAddress,
                 userAddress: walletAddress,
                 hostAppName: 'NoCap Meta App',
