@@ -21,8 +21,9 @@ const OverLay = () => {
     }
 
     return (
-        <div className='h-screen w-full flex items-center'>
-            <form onSubmit={handleClick} className='mx-auto flex flex-col items-center border border-gray-300 shadow-lg p-8 h-96 justify-between'>
+        <div className='bg-yellow-100 h-screen w-full flex flex-col justify-center items-center'>
+            <h2 className='text-5xl font-bold text-green-600 mb-20'>Ramp Network Integration</h2>
+            <form onSubmit={handleClick} className='bg-white mx-auto flex flex-col items-center border border-gray-300 shadow-lg p-8 h-96 justify-between'>
                 <div>
                     <div className='flex items-center text-gray-700 font-semibold gap-2'>
                         <p>User Wallet Address : </p>
